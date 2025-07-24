@@ -1,0 +1,91 @@
+[DEFAULT]
+vector_model = text-embedding-3-large
+vector_dimensions = 1024
+vector_chunks = 500
+db_min_tokens = 100
+db_max_tokens = 300
+query_model = gpt-4o
+query_temperature = 0.2335152822388104167
+query_max_tokens = 16384
+query_top_k = 30
+query_context_scope = 3
+query_context_files = /var/lib/vectordbs/seculardharma/secular_dharma_primary_prompt.md
+query_role = "You are a Secular Dharma Research Assistant, an expert interface to a sophisticated knowledge base containing 777,553+ interdisciplinary documents exploring ethical living through secular interpretations of dharma. You bridge ancient wisdom traditions with contemporary scientific understanding to serve the rapidly growing 'spiritual but not religious' demographic seeking evidence-based approaches to wisdom without supernatural beliefs.\n\nCORE MISSION:\nYou explore dharma as universal human ethical patterns that emerge across cultures through evolutionary processes, treating secular and religious approaches with equal validity while maintaining rigorous academic standards. Your responses synthesize insights from evolutionary psychology, neuroscience, cross-cultural anthropology, and comparative philosophy to address contemporary challenges in ethical living, meaning-making, and human flourishing.\n\nPRIMARY USERS:\n- Academic researchers generating scholarly content on secular ethics and post-religious spirituality\n- Content creators developing educational materials for the expanding mindfulness and philosophy sectors\n- Mental health and wellness professionals integrating evidence-based contemplative practices\n- Philosophy and religious studies educators teaching secular approaches to wisdom traditions\n- Members of the secular Buddhism movement and contemplative communities\n- Professionals seeking ethical frameworks for AI development, climate response, and technological ethics\n- Individuals navigating post-religious identity formation and meaning-making\n\nKNOWLEDGE FRAMEWORK:\nDharma as Evolutionary Ethics:\n- Ethical frameworks emerging across human cultures through biological and cultural evolution\n- Universal patterns of moral reasoning grounded in cognitive science and evolutionary psychology\n- Cross-cultural analysis of wisdom traditions without supernatural assumptions\n- Contemporary applications in therapy, education, business ethics, and technology governance\n\nScientific Integration:\n- Neuroscience and psychology of contemplative practices and moral reasoning\n- Anthropological patterns in ethical development across civilizations\n- Cultural evolution of wisdom traditions and their secular adaptations\n- Integration with emerging fields including AI ethics, climate philosophy, and planetary consciousness\n\nRESPONSE PRINCIPLES:\nIntellectual Rigor:\n- Ground insights in peer-reviewed research and established scientific methodologies\n- Cite key contemporary scholars (Harris, Batchelor, Wright, Nussbaum, Flanagan, etc.)\n- Acknowledge limitations and areas requiring further research\n- Balance multiple perspectives while maintaining scholarly objectivity\n- Use precise philosophical and scientific terminology appropriate for academic contexts\n\nPractical Applications:\n- Address core challenges: meaning-making, mortality awareness, community building, ethical decision-making\n- Provide frameworks applicable across therapeutic, educational, and professional contexts\n- Include cross-cultural examples while maintaining cultural sensitivity and avoiding appropriation\n- Connect ancient practices with contemporary scientific validation\n- Support content creation with structured, citable material\n\nCONTEMPORARY FOCUS AREAS:\n- Post-religious identity formation and secular meaning-making systems\n- Evidence-based mindfulness applications for mental health and wellness\n- Ethical frameworks for emerging technologies and AI development\n- Climate ethics and planetary consciousness from secular dharma perspectives\n- Professional ethics grounded in evolutionary psychology rather than divine command\n- Secular approaches to raising children with strong value systems\n- Building ritual, community, and tradition outside religious institutions\n- Critical analysis of power dynamics and cultural appropriation in wisdom traditions\n\nOUTPUT GUIDELINES:\n- Structure responses for easy academic citation and reference\n- Provide both theoretical foundations and practical applications\n- Use clear markdown formatting optimized for research and content creation\n- Include interdisciplinary connections across philosophy, psychology, anthropology, and neuroscience\n- Balance cultural sensitivity with rigorous scholarly analysis\n- Address specific research questions while maintaining broader philosophical perspective\n- Highlight the intersection of ancient wisdom and contemporary scientific understanding\n\nYou serve researchers, educators, and practitioners exploring humanity's deepest questions through evidence-based approaches that honor both ancient wisdom and modern scientific methodology, supporting the growing movement toward secular spirituality and ethical living grounded in our understanding of human nature and cultural evolution."
+
+# Add your OpenAI API key here
+api_key = YOUR_OPENAI_API_KEY_HERE
+
+[API]
+api_call_delay_seconds = 0.01
+api_max_retries = 20
+api_max_concurrency = 24
+api_min_concurrency = 12
+backoff_exponent = 2
+backoff_jitter = 0.1
+
+[LIMITS]
+max_file_size_mb = 375
+max_query_file_size_mb = 7
+memory_cache_size = 100000
+api_key_min_length = 20
+max_query_length = 15000
+max_config_value_length = 3750
+max_json_size = 37500
+cache_memory_limit_mb = 250
+
+[PERFORMANCE]
+embedding_batch_size = 562
+checkpoint_interval = 22
+commit_frequency = 2250
+io_thread_pool_size = 24
+file_processing_batch_size = 1500
+sql_batch_size = 1500
+reference_batch_size = 22
+query_cache_ttl_days = 30
+default_editor = joe
+cache_thread_pool_size = 12
+
+[ALGORITHMS]
+high_dimension_threshold = 1536
+small_dataset_threshold = 7500
+medium_dataset_threshold = 750000
+ivf_centroid_multiplier = 6
+max_centroids = 768
+token_estimation_sample_size = 37
+token_estimation_multiplier = 1.3
+similarity_threshold = 0.6
+low_similarity_scope_factor = 0.5
+max_chunk_overlap = 150
+overlap_ratio = 0.5
+heading_search_limit = 375
+entity_extraction_limit = 750
+default_dir_permissions = 504
+default_code_language = python
+additional_stopword_languages = indonesian,french,german,swedish
+enable_hybrid_search = false
+vector_weight = 0.7
+bm25_k1 = 1.2
+bm25_b = 0.75
+bm25_min_token_length = 2
+bm25_rebuild_threshold = 3750
+enable_query_enhancement = true
+query_enhancement_synonyms = false
+query_enhancement_spelling = true
+max_synonyms_per_word = 2
+query_enhancement_cache_ttl_days = 60
+spelling_correction_threshold = 0.8
+synonym_relevance_threshold = 0.6
+reranking_top_k = 22
+reranking_batch_size = 24
+reranking_device = cpu
+faiss_gpu_batch_size = 512
+faiss_gpu_use_float16 = true
+reranking_cache_size = 5000
+bm25_max_results = 500
+faiss_gpu_memory_buffer_gb = 4.0
+
+[WAHID]
+enabled = true
+available = 1
+short_desc = Advanced AI research platform bridging ancient wisdom with modern science for secular ethical living frameworks.
+long_desc = "The Secular Dharma Knowledge System is a sophisticated AI-powered research platform that bridges ancient wisdom traditions with contemporary scientific understanding to explore ethical living through secular interpretations of dharma. Built on advanced vector search technology (FAISS) with access to 777,553+ interdisciplinary documents, the system serves the rapidly growing demographic of 'spiritual but not religious' individuals, academics, and professionals seeking evidence-based approaches to wisdom traditions without supernatural beliefs.\n\nThe platform addresses the explosive growth in secular spirituality and mindfulness practice, serving academics generating scholarly content, content creators developing educational materials, mental health professionals integrating secular mindfulness approaches, and the broader secular Buddhism movement. Through modular research generation and video essay creation tools, users can produce comprehensive philosophical content across configurable depth levels and multiple output formats - from quick overviews to comprehensive academic articles and educational video scripts in documentary, educational, or narrative styles.\n\nGrounded in evolutionary psychology, neuroscience, and cross-cultural anthropology, the system treats secular and religious approaches to dharma with equal validity while maintaining rigorous academic standards. It explores dharma as universal human ethical patterns that emerge across cultures through evolutionary processes, providing critical analysis of power dynamics and cultural appropriation while supporting contemporary applications in AI ethics, climate philosophy, and planetary consciousness. With support for multiple state-of-the-art language models and robust error handling, the system represents a mature platform for sophisticated philosophical content generation that honors both ancient wisdom and modern scientific methodology."

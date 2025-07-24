@@ -1,0 +1,1 @@
+Advanced AI research platform bridging ancient wisdom with modern science for secular ethical living frameworks.
