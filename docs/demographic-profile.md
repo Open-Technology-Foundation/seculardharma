@@ -15,7 +15,7 @@ The Secular Dharma Knowledgebase serves a rapidly expanding global demographic o
 ### Primary Global Demographics
 - **"Spiritual but not Religious" Individuals**: 300-500 million globally (4-6.25% of world population)
 - **Global Meditation Practitioners**: 275-500 million worldwide (3.4-6.25% of global population)
-- **Secular Buddhism Movement**: Growing subset within traditional 488-535 million Buddhist population
+- **Secular Dharma/Buddhism Movement**: Growing subset within traditional 488-535 million Buddhist population and millions more Dharmics from other cultures.
 - **Academic & Professional Communities**: 15-20 million researchers, educators, and mental health professionals
 
 ### Growth Trajectory
@@ -44,6 +44,7 @@ The Secular Dharma Knowledgebase serves a rapidly expanding global demographic o
 - **Germany**: 10.9 million meditation practitioners (15.1% of adults)
 - **Nordic Countries**: High secular spirituality correlating with low religious identification
 - **Key Characteristics**:
+  - Dharmic Practioners
   - Secular Buddhist communities
   - Integration with healthcare systems
   - Philosophy and ethics education
@@ -100,7 +101,7 @@ The Secular Dharma Knowledgebase serves a rapidly expanding global demographic o
 - **Characteristics**:
   - Integrate evidence-based contemplative practices
   - Mindfulness-Based Stress Reduction (MBSR) practitioners
-  - Therapeutic application of Buddhist psychology
+  - Therapeutic application of Dharmic/Buddhist psychology
   - Clinical research in meditation efficacy
 
 ### Technology & Business Professionals (5-10 million globally)
@@ -112,14 +113,14 @@ The Secular Dharma Knowledgebase serves a rapidly expanding global demographic o
   - Ethical technology development advocates
   - Sustainable business practice integration
 
-### Secular Buddhism Movement Members (2-5 million globally)
+### Secular Dharma/Buddhism Movement Members (2-5 million globally)
 **Age**: 35-65 | **Gender**: 60% female, 40% male | **Education**: University+
 - **Primary Regions**: Western countries, urban Asia, Buddhist-heritage countries
 - **Characteristics**:
-  - Practice Buddhist meditation without supernatural beliefs
+  - Practice Dharmic meditation without supernatural beliefs
   - Community-based dharma study groups
   - Vipassana meditation practitioners
-  - Buddhist philosophy without religious conversion
+  - Dharmas without religious conversion
 
 ### Post-Religious Identity Seekers (50-100 million globally)
 **Age**: 25-55 | **Gender**: 55% female, 45% male | **Education**: Varies
@@ -187,7 +188,7 @@ The Secular Dharma Knowledgebase serves a rapidly expanding global demographic o
 3. **German**: Strong philosophical tradition and high meditation adoption
 4. **Spanish**: Expanding Latin American urban markets
 5. **French**: European and Canadian francophone communities
-6. **Japanese**: Modernizing traditional Buddhist practices
+6. **Japanese**: Modernizing traditional Dharmic/Buddhist practices
 
 ### Cultural Adaptations Required
 - **Western individualism**: Personal transformation and self-development focus

@@ -8,9 +8,9 @@
 
 ## Overview
 
-The **Secular Dharma Knowledgebase** is a sophisticated AI-powered research and content generation platform that explores ethical living through secular interpretations of dharma. Built on advanced vector search technology (FAISS) with access to **15,224 documents segmented into 777,553 searchable chunks**, it serves the rapidly growing demographic of "spiritual but not religious" individuals, academics, and professionals seeking evidence-based approaches to wisdom traditions without supernatural beliefs.
+The **Secular Dharma Knowledgebase** is an AI-powered research and content generation platform that explores ethical living through secular interpretations of dharma. Built on advanced vector search technology (FAISS) with access to **15,224 documents segmented into 777,553 searchable chunks**, it serves a growing demographic of irrelgious "spiritual" individuals, academics, and professionals seeking evidence-based approaches to wisdom traditions without supernatural beliefs.
 
-The platform addresses the explosive growth in secular spirituality and mindfulness practice, serving academics generating scholarly content, content creators developing educational materials, mental health professionals integrating secular mindfulness approaches, and the broader secular Buddhism movement. Through modular research generation and video essay creation tools, users can produce comprehensive philosophical content across configurable depth levels and multiple output formats.
+The platform addresses the growth in secular spirituality and mindfulness practice, serving academics generating scholarly content, content creators developing educational materials, mental health professionals integrating secular mindfulness approaches, and the broader secular dharma/secular Buddhism movements. Through modular research generation and video essay creation tools, users can produce comprehensive philosophical content across configurable depth levels and multiple output formats.
 
 ---
 
@@ -53,15 +53,15 @@ To explore dharma as **universal human ethical patterns that emerge across cultu
 ### Prerequisites
 - Linux system (tested on Ubuntu 24.04)
 - Python 3.8+ with virtual environment support
-- [customkb](https://github.com/yourusername/customkb) vector database tool
-- [dv2/dejavu2-cli](https://github.com/yourusername/dv2) LLM interface tool
+- [customkb](https://github.com/Open-Technology-Foundation/customkb) vector database tool
+- [dv2/dejavu2-cli](https://github.com/Open-Technology-Foundation/dejavu2-cli) LLM interface tool
 - pandoc for markdown to HTML conversion
 - yq for YAML processing
 
 ### Quick Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/seculardharma.git
+   git clone https://github.com/Open-Technology-Foundation/seculardharma
    cd seculardharma
    ```
 
@@ -85,7 +85,7 @@ To explore dharma as **universal human ethical patterns that emerge across cultu
 
 5. Verify installation:
    ```bash
-   customkb query seculardharma.cfg "test query"
+   customkb query seculardharma "test query"
    ```
 
 ---
@@ -257,13 +257,13 @@ cd /var/lib/vectordbs/seculardharma/DefiningDharma
 ### Knowledgebase Queries
 ```bash
 # Direct philosophical inquiries
-customkb query seculardharma.cfg "What is secular dharma?"
+customkb query seculardharma "What is secular dharma?"
 
 # Context-only research (no AI response)
-customkb query seculardharma.cfg "Buddhist ethics" --context-only
+customkb query seculardharma "Buddhist ethics" --context-only
 
 # Custom parameters for specific research
-customkb query seculardharma.cfg "mindfulness research" -k 50 -t 0.3
+customkb query seculardharma "mindfulness research" -k 50 -t 0.3
 ```
 
 ### Content Processing
@@ -434,6 +434,7 @@ The Secular Dharma Knowledgebase represents a mature, production-ready platform 
 
 ### Contributing
 Contributions are welcome! Please feel free to submit issues and pull requests. Areas of particular interest:
+- Additional source material for inclusion in data set
 - Additional language models and AI integrations
 - Enhanced search algorithms and relevance tuning
 - New content generation templates and styles

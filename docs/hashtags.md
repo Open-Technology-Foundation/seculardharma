@@ -1,92 +1,92 @@
 ## **Core Dharmic Concepts**
-- `#seculardharma` - Non-religious dharmic approaches
-- `#dharmaevolution` - How dharmas adapt and change
-- `#ethicalliving` - Practical applications of dharmic principles
-- `#impermanence` - Transient nature of existence
-- `#interconnectedness` - Relational aspects of dharmic practice
+- Non-religious dharmic approaches: secular dharma: #seculardharma
+- How dharmas adapt and change: dharma evolution: #dharmaevolution
+- Practical applications of dharmic principles: ethical living: #ethicalliving
+- Transient nature of existence: impermanence: #impermanence
+- Relational aspects of dharmic practice: interconnectedness: #interconnectedness
 
 ## **Individual vs. Collective Dimensions**
-- `#individualdharma` - Personal dharmic paths
-- `#collectivedharma` - Group and community dharmas
-- `#mydharma` - Personal dharmic exploration
-- `#ourdharma` - Collective dharmic frameworks
-- `#groupdynamics` - How dharmas function in groups
+- Personal dharmic paths: individual dharma: #individualdharma
+- Group and community dharmas: collective dharma: #collectivedharma
+- Personal dharmic exploration: my dharma: #mydharma
+- Collective dharmic frameworks: our dharma: #ourdharma
+- How dharmas function in groups: group dynamics: #groupdynamics
 
 ## **Evolutionary and Biological Foundations**
-- `#humanevolution` - Dharma through evolutionary lens
-- `#behavioralbiology` - Biological basis of dharmic behavior
-- `#culturalevolution` - How dharmas evolve culturally
-- `#adaptation` - Dharmic responses to change
-- `#cooperation` - Collaborative dharmic living
+- Dharma through evolutionary lens: human evolution: #humanevolution
+- Biological basis of dharmic behavior: behavioral biology: #behavioralbiology
+- How dharmas evolve culturally: cultural evolution: #culturalevolution
+- Dharmic responses to change: adaptation: #adaptation
+- Collaborative dharmic living: cooperation: #cooperation
 
 ## **Societal and Civilizational Scale**
-- `#civilizationaldharma` - Large-scale dharmic frameworks
-- `#politicaldharma` - Dharma in governance
-- `#techdharma` - Dharma in digital contexts
-- `#networks` - Distributed dharmic systems
-- `#upscoping` - Expanding dharmic perspectives
+- Large-scale dharmic frameworks: civilizational dharma: #civilizationaldharma
+- Dharma in governance: political dharma: #politicaldharma
+- Dharma in digital contexts: tech dharma: #techdharma
+- Distributed dharmic systems: networks: #networks
+- Expanding dharmic perspectives: upscoping: #upscoping
 
 ## **Philosophical and Methodological**
-- `#mindfulness` - Present-moment awareness
-- `#nonreactivity` - Cultivating equanimity
-- `#compassion` - Empathetic engagement
-- `#wisdomcultivation` - Developing discernment
-- `#contextdependent` - Situational application
+- Present-moment awareness: mindfulness: #mindfulness
+- Cultivating equanimity: non-reactivity: #nonreactivity
+- Empathetic engagement: compassion: #compassion
+- Developing discernment: wisdom cultivation: #wisdomcultivation
+- Situational application: context dependent: #contextdependent
 
 ## **Contemporary Challenges**
-- `#polarization` - Addressing divisive dynamics
-- `#binarythinking` - Transcending either/or frameworks
-- `#mediatedinteraction` - Digital dharmic communication
-- `#authenticity` - Genuine vs. performative dharma
-- `#sustainability` - Long-term viability
+- Addressing divisive dynamics: polarization: #polarization
+- Transcending either/or frameworks: binary thinking: #binarythinking
+- Digital dharmic communication: mediated interaction: #mediatedinteraction
+- Genuine vs. performative dharma: authenticity: #authenticity
+- Long-term viability: sustainability: #sustainability
 
 ## **Practical Applications**
-- `#discourseethics` - Dharmic communication
-- `#conflictresolution` - Dharmic disagreement handling
-- `#communitybuilding` - Creating dharmic communities
-- `#leadership` - Dharmic guidance
-- `#creativity` - Dharmic innovation
+- Dharmic communication: discourse ethics: #discourseethics
+- Dharmic disagreement handling: conflict resolution: #conflictresolution
+- Creating dharmic communities: community building: #communitybuilding
+- Dharmic guidance: leadership: #leadership
+- Dharmic innovation: creativity: #creativity
 
 ## **Cultural and Social Dynamics**
-- `#culturaldiversity` - Exploring diverse cultural practices
-- `#socialintegration` - Fostering inclusive societies
-- `#identityformation` - Understanding identity within cultural contexts
-- `#ritualsandtraditions` - Examining cultural rituals and traditions
-- `#crossculturalcommunication` - Enhancing intercultural dialogue
+- Exploring diverse cultural practices: cultural diversity: #culturaldiversity
+- Fostering inclusive societies: social integration: #socialintegration
+- Understanding identity within cultural contexts: identity formation: #identityformation
+- Examining cultural rituals and traditions: rituals and traditions: #ritualsandtraditions
+- Enhancing intercultural dialogue: cross-cultural communication: #crossculturalcommunication
 
 ## **Historical and Evolutionary Perspectives**
-- `#historicalcontext` - Placing dharmic practices in historical perspective
-- `#ancestralwisdom` - Drawing from ancestral knowledge
-- `#evolutionarypsychology` - Psychological aspects of human evolution
-- `#archaeologicalinsights` - Insights from archaeological findings
+- Placing dharmic practices in historical perspective: historical context: #historicalcontext
+- Drawing from ancestral knowledge: ancestral wisdom: #ancestralwisdom
+- Psychological aspects of human evolution: evolutionary psychology: #evolutionarypsychology
+- Insights from archaeological findings: archaeological insights: #archaeologicalinsights
 
 ## **Technological and Digital Contexts**
-- `#digitalanthropology` - Studying human behavior in digital spaces
-- `#cyberculture` - Examining online cultural phenomena
-- `#virtualcommunities` - Understanding communities in virtual environments
-- `#technologicalethics` - Ethical considerations in technology use
+- Studying human behavior in digital spaces: digital anthropology: #digitalanthropology
+- Examining online cultural phenomena: cyber culture: #cyberculture
+- Understanding communities in virtual environments: virtual communities: #virtualcommunities
+- Ethical considerations in technology use: technological ethics: #technologicalethics
 
 ## **Environmental and Ecological Considerations**
-- `#ecodharma` - Integrating ecological awareness into dharma
-- `#sustainablepractices` - Promoting sustainable living
-- `#environmentaljustice` - Addressing ecological inequalities
-- `#biodiversity` - Preserving biological diversity
+- Integrating ecological awareness into dharma: eco dharma: #ecodharma
+- Promoting sustainable living: sustainable practices: #sustainablepractices
+- Addressing ecological inequalities: environmental justice: #environmentaljustice
+- Preserving biological diversity: biodiversity: #biodiversity
 
 ## **Health and Well-being**
-- `#mentalhealth` - Addressing mental health within dharmic frameworks
-- `#holisticwellbeing` - Promoting overall well-being
-- `#healthydharma` - Integrating health into dharmic practices
-- `#resiliencebuilding` - Cultivating resilience through dharma
+- Addressing mental health within dharmic frameworks: mental health: #mentalhealth
+- Promoting overall well-being: holistic wellbeing: #holisticwellbeing
+- Integrating health into dharmic practices: healthy dharma: #healthydharma
+- Cultivating resilience through dharma: resilience building: #resiliencebuilding
 
 ## **Ethics and Morality**
-- `#moralphilosophy` - Exploring moral questions within dharmic contexts
-- `#ethicaldilemmas` - Navigating ethical challenges
-- `#integrity` - Upholding integrity in dharmic practice
-- `#justice` - Pursuing justice through dharmic principles
+- Exploring moral questions within dharmic contexts: moral philosophy: #moralphilosophy
+- Navigating ethical challenges: ethical dilemmas: #ethicaldilemmas
+- Upholding integrity in dharmic practice: integrity: #integrity
+- Pursuing justice through dharmic principles: justice: #justice
 
 ## **Education and Learning**
-- `#dharmiceducation` - Teaching dharmic principles
-- `#lifelonglearning` - Encouraging continuous learning
-- `#pedagogicalapproaches` - Innovative teaching methods
-- `#knowledgeexchange` - Facilitating knowledge sharing
+- Teaching dharmic principles: dharmic education: #dharmiceducation
+- Encouraging continuous learning: lifelong learning: #lifelonglearning
+- Innovative teaching methods: pedagogical approaches: #pedagogicalapproaches
+- Facilitating knowledge sharing: knowledge exchange: #knowledgeexchange
 
