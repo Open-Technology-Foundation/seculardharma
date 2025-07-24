@@ -40,7 +40,7 @@ readonly LOGGER_SCRIPT_NAME="${LOGGER_SCRIPT##*/}"
 readonly LOGGER_SCRIPT_DIR="${LOGGER_SCRIPT%/*}"
 
 # Log levels
-declare -A LOG_LEVELS=(
+declare -Ag LOG_LEVELS=(
   [DEBUG]=0
   [INFO]=1
   [WARN]=2
@@ -48,10 +48,10 @@ declare -A LOG_LEVELS=(
 )
 
 # Default configuration
-declare -g LOG_LEVEL="${LOG_LEVEL:-INFO}"
-declare -g LOG_TO_STDERR="${LOG_TO_STDERR:-1}"
-declare -g LOG_DATE_FMT="${LOG_DATE_FMT:-%Y-%m-%d %H:%M:%S}"
-declare -g LOG_INITIALIZED=0
+declare -g  LOG_LEVEL="${LOG_LEVEL:-INFO}"
+declare -ig LOG_TO_STDERR="${LOG_TO_STDERR:-1}"
+declare -g  LOG_DATE_FMT="${LOG_DATE_FMT:-%Y-%m-%d %H:%M:%S}"
+declare -ig LOG_INITIALIZED=0
 
 # Color codes (if supported)
 declare -g LOG_COLOR_RESET=""
@@ -108,7 +108,7 @@ _get_default_logfile() {
 # Initialize logging system
 log_setup() {
   # Prevent multiple initializations
-  [[ $LOG_INITIALIZED -eq 1 ]] && return 0
+  ((LOG_INITIALIZED)) && return 0
   
   # Set log file (use environment variable or default)
   if [[ -z "${LOGFILE:-}" ]]; then
@@ -143,7 +143,7 @@ _log() {
   local message="$*"
   
   # Initialize if not done yet
-  [[ $LOG_INITIALIZED -eq 0 ]] && log_setup
+  ((LOG_INITIALIZED)) || log_setup
   
   # Check if we should log this level
   local level_num="${LOG_LEVELS[$level]}"
@@ -163,7 +163,7 @@ _log() {
   fi
   
   # Write to stderr if enabled
-  if [[ "${LOG_TO_STDERR}" == "1" ]]; then
+  if ((LOG_TO_STDERR)); then
     local color_start=""
     local color_end=""
     
@@ -207,6 +207,9 @@ vinfo() {
 }
 
 vwarn() {
+  log_warn "$@"
+}
+warn() {
   log_warn "$@"
 }
 
@@ -272,9 +275,6 @@ create_log_symlink() {
 # Auto-initialization
 # ==============================================================================
 
-# Initialize logging when sourced (can be disabled by setting LOG_NO_AUTO_INIT=1)
-if [[ "${LOG_NO_AUTO_INIT:-0}" != "1" ]]; then
-  log_setup
-fi
+log_setup
 
 #fin
