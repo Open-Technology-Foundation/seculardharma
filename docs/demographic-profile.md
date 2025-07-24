@@ -1,4 +1,4 @@
-# Secular Dharma Knowledge System - Global Demographic Profile
+# Secular Dharma Knowledgebase - Global Demographic Profile
 
 **Analysis Date:** July 2025 | **Global Scope:** International Demographics
 
@@ -6,7 +6,7 @@
 
 ## Executive Summary
 
-The Secular Dharma Knowledge System serves a rapidly expanding global demographic of approximately **300-500 million "spiritual but not religious" individuals** worldwide, representing the intersection of ancient wisdom traditions with contemporary scientific understanding. This demographic spans developed and emerging economies, united by a common search for evidence-based approaches to ethical living, meaning-making, and human flourishing without supernatural beliefs.
+The Secular Dharma Knowledgebase serves a rapidly expanding global demographic of approximately **300-500 million "spiritual but not religious" individuals** worldwide, representing the intersection of ancient wisdom traditions with contemporary scientific understanding. This demographic spans developed and emerging economies, united by a common search for evidence-based approaches to ethical living, meaning-making, and human flourishing without supernatural beliefs.
 
 ---
 
@@ -218,7 +218,7 @@ The Secular Dharma Knowledge System serves a rapidly expanding global demographi
 
 ## Conclusion
 
-The Secular Dharma Knowledge System addresses a sophisticated, globally distributed demographic characterized by high education levels, secular worldviews, and deep engagement with both ancient wisdom and contemporary science. This market represents the convergence of multiple trends: religious secularization, meditation mainstreaming, academic interdisciplinarity, and the search for evidence-based approaches to humanity's deepest questions.
+The Secular Dharma Knowledgebase addresses a sophisticated, globally distributed demographic characterized by high education levels, secular worldviews, and deep engagement with both ancient wisdom and contemporary science. This market represents the convergence of multiple trends: religious secularization, meditation mainstreaming, academic interdisciplinarity, and the search for evidence-based approaches to humanity's deepest questions.
 
 The demographic's geographic distribution reflects broader patterns of development, urbanization, and educational access, with strongest penetration in post-industrial societies and educated urban centers worldwide. The system's approach of treating secular and religious dharmas with equal validity while maintaining rigorous academic standards positions it ideally to serve this nuanced, intellectually demanding global community.
 

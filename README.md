@@ -1,4 +1,4 @@
-# Secular Dharma Knowledge System
+# Secular Dharma Knowledgebase
 
 **Version:** 2.0.0 | **Status:** Production Ready | **Updated:** July 2025 | **License:** GPL-3.0
 
@@ -8,7 +8,7 @@
 
 ## Overview
 
-The **Secular Dharma Knowledge System** is a sophisticated AI-powered research and content generation platform that explores ethical living through secular interpretations of dharma. Built on advanced vector search technology (FAISS) with access to **777,553+ interdisciplinary documents**, it serves the rapidly growing demographic of "spiritual but not religious" individuals, academics, and professionals seeking evidence-based approaches to wisdom traditions without supernatural beliefs.
+The **Secular Dharma Knowledgebase** is a sophisticated AI-powered research and content generation platform that explores ethical living through secular interpretations of dharma. Built on advanced vector search technology (FAISS) with access to **777,553+ interdisciplinary documents**, it serves the rapidly growing demographic of "spiritual but not religious" individuals, academics, and professionals seeking evidence-based approaches to wisdom traditions without supernatural beliefs.
 
 The platform addresses the explosive growth in secular spirituality and mindfulness practice, serving academics generating scholarly content, content creators developing educational materials, mental health professionals integrating secular mindfulness approaches, and the broader secular Buddhism movement. Through modular research generation and video essay creation tools, users can produce comprehensive philosophical content across configurable depth levels and multiple output formats.
 
@@ -71,14 +71,18 @@ To explore dharma as **universal human ethical patterns that emerge across cultu
    # Edit seculardharma.cfg and add your OpenAI API key
    ```
 
-3. Set up symbolic links to knowledge base (if using existing):
+3. Set up symbolic links to knowledgebase (if using existing):
    ```bash
    ln -s /path/to/appliedanthropology/appliedanthropology.db seculardharma.db
    ln -s /path/to/appliedanthropology/appliedanthropology.faiss seculardharma.faiss
-   ln -s /path/to/embed_data embed_data
    ```
 
-4. Verify installation:
+4. Note on data directories:
+   - `workshops/` - Contains source documents (symlinked in dev environment)
+   - `staging.text/` - Processed text cache (symlinked in dev environment)
+   - `embed_data` and `embed_data.text` are legacy symlinks pointing to the above
+
+5. Verify installation:
    ```bash
    customkb query seculardharma.cfg "test query"
    ```
@@ -94,6 +98,10 @@ seculardharma/
 ├── CLAUDE.md                       # AI assistant instructions
 ├── secular_dharma_primary_prompt.md # Primary system prompt
 ├── seculardharma.cfg.template      # Configuration template
+├── workshops/                      # Source documents (symlink → /ai/datasets/sd/sd_gpt/)
+├── staging.text/                   # Processed text cache (symlink → ../appliedanthropology/embed_data.text)
+├── embed_data → workshops/         # Legacy symlink for compatibility
+├── embed_data.text → staging.text/ # Legacy symlink for compatibility
 ├── docs/                           # Documentation
 │   ├── PURPOSE-FUNCTIONALITY-USAGE.md
 │   ├── demographic-profile.md
@@ -126,7 +134,7 @@ seculardharma/
 ### Core Technology Stack
 - **Vector Database**: FAISS-based semantic search with 1024-dimension embeddings
 - **Embeddings**: OpenAI text-embedding-3-large model
-- **Knowledge Base**: 777,553+ interdisciplinary documents via shared architecture
+- **Knowledgebase**: 777,553+ interdisciplinary documents via shared architecture
 - **Search Configuration**: 30 top-k results, 0.6 similarity threshold, reranking enabled
 - **AI Integration**: Support for multiple LLMs (GPT-4o, Claude Sonnet, O1, etc.)
 
@@ -135,10 +143,13 @@ The system leverages symbolic links to share vector databases with applied anthr
 ```
 seculardharma.db → ../appliedanthropology/appliedanthropology.db
 seculardharma.faiss → ../appliedanthropology/appliedanthropology.faiss
-embed_data → /ai/datasets/sd/sd_gpt/
+workshops/ → /ai/datasets/sd/sd_gpt/
+staging.text/ → /var/lib/vectordbs/appliedanthropology/embed_data.text
+embed_data → workshops/  (legacy symlink)
+embed_data.text → staging.text/  (legacy symlink)
 ```
 
-This design provides access to comprehensive interdisciplinary knowledge while maintaining focused philosophical lens.
+This design provides access to comprehensive interdisciplinary knowledge while maintaining focused philosophical lens. The `workshops/` directory contains source documents while `staging.text/` contains processed text cache.
 
 ### Required Dependencies ✅
 - **customkb**: Vector database management tool (`/usr/local/bin/customkb`)
@@ -202,7 +213,7 @@ Configured as a **Secular Dharma Research Assistant** that:
 
 ### System Verification
 ```bash
-# Test knowledge base functionality
+# Test knowledgebase functionality
 customkb query seculardharma.cfg "test query"
 
 # Verify database indexes and performance
@@ -242,7 +253,7 @@ cd /var/lib/vectordbs/seculardharma/DefiningDharma
 ./video-essay-dharma.sh -s narrative -l 15min -t 0.8
 ```
 
-### Knowledge Base Queries
+### Knowledgebase Queries
 ```bash
 # Direct philosophical inquiries
 customkb query seculardharma.cfg "What is secular dharma?"
@@ -328,7 +339,7 @@ DefiningDharma/
 - **Search Parameters**: 30 top-k results, 0.6 similarity threshold
 - **Context Files**: Points to `secular_dharma_primary_prompt.md`
 - **Hybrid Search**: Currently disabled (BM25 available)
-- **Knowledge Base**: 777,553 documents with full access
+- **Knowledgebase**: 777,553 documents with full access
 
 ### Model Selection
 - **sonnet4**: Claude 3.5 Sonnet (default for most scripts)
@@ -346,7 +357,7 @@ DefiningDharma/
 ### Current Configuration Status
 - **Primary Model**: GPT-4o with temperature 0.2335 (optimized for philosophical consistency)
 - **Vector Model**: text-embedding-3-large producing 1024-dimensional embeddings
-- **Knowledge Base**: 777,553 documents accessed via symbolic link architecture
+- **Knowledgebase**: 777,553 documents accessed via symbolic link architecture
 - **Search Configuration**: 30 top-k results, 0.6 similarity threshold, reranking enabled
 - **Processing Mode**: CPU-based with robust error handling throughout
 
@@ -388,7 +399,7 @@ DefiningDharma/
 - **Temperature Setting**: Intentionally low (0.2335) for philosophical consistency
 - **Error Handling**: Robust `set -euo pipefail` implementation across all scripts
 - **Processing Architecture**: CPU-based with GPU acceleration support
-- **Context Integration**: Rich knowledge base queries provide deep philosophical context
+- **Context Integration**: Rich knowledgebase queries provide deep philosophical context
 
 ### Content Standards
 - Academic rigor with accessible prose suitable for diverse audiences
@@ -418,7 +429,7 @@ DefiningDharma/
 
 ## Contributing & Support
 
-The Secular Dharma Knowledge System represents a mature, production-ready platform for sophisticated philosophical content generation that successfully bridges ancient wisdom with contemporary scientific understanding. It serves the growing movement toward secular spirituality and ethical living grounded in our understanding of human nature and cultural evolution.
+The Secular Dharma Knowledgebase represents a mature, production-ready platform for sophisticated philosophical content generation that successfully bridges ancient wisdom with contemporary scientific understanding. It serves the growing movement toward secular spirituality and ethical living grounded in our understanding of human nature and cultural evolution.
 
 ### Contributing
 Contributions are welcome! Please feel free to submit issues and pull requests. Areas of particular interest:
@@ -427,6 +438,12 @@ Contributions are welcome! Please feel free to submit issues and pull requests. 
 - New content generation templates and styles
 - Cross-cultural wisdom tradition integrations
 - Performance optimizations and caching improvements
+
+### Git Workflow & Large Files
+The repository includes a `.gitcommit` script that handles large directories:
+- Creates split zip archives (99MB chunks) for the `staging.text/` directory
+- To extract split archives: `zip -F staging.text.zip --out combined.zip && unzip combined.zip`
+- Automatically commits and pushes changes (if remote is configured)
 
 ### Documentation
 For technical guidance, refer to:

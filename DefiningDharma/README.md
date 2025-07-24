@@ -79,7 +79,7 @@ Generates comprehensive dharma research through themed investigations.
 # Quick research with GPT-4
 ./research-dharma.sh -d quick -m gpt-4o
 
-# Comprehensive notes without knowledge base
+# Comprehensive notes without knowledgebase
 ./research-dharma.sh -d comprehensive -f notes -k none
 
 # Structured data for analysis
@@ -124,7 +124,7 @@ Fixed 10-minute video with 16 predefined sections exploring dharma's journey fro
 ### Key Parameters
 - **Temperature**: 0.2-0.3 (low for consistency)
 - **Token Limits**: 8K-16K per generation
-- **Knowledge Base**: 777K+ documents on applied anthropology
+- **Knowledgebase**: 777K+ documents on applied anthropology
 - **Vector Search**: 30 top-k results, 0.6 similarity threshold
 
 ### Environment Variables
@@ -221,7 +221,7 @@ cat video-scripts/dharma-video-essay_*_production.md
 
 ### Common Issues
 1. **dv2 not found** - Ensure dejavu2-cli is installed at `/usr/local/bin/dv2`
-2. **Knowledge base errors** - Check `../seculardharma.cfg` configuration
+2. **Knowledgebase errors** - Check `../seculardharma.cfg` configuration
 3. **HTML conversion fails** - Verify pandoc installation
 4. **Model errors** - Confirm API keys are configured in dv2
 5. **Permission issues** - Scripts need execute permissions (`chmod +x`)
@@ -260,20 +260,20 @@ logs/
 
 - **PURPOSE-FUNCTIONALITY-USAGE.md** - Detailed functionality guide
 - **CLAUDE.md** - Technical guidance for AI assistants
-- **Parent README** - Secular Dharma Knowledge System overview
+- **Parent README** - Secular Dharma Knowledgebase overview
 
 ## 📝 Notes
 
 - Scripts use robust error handling (`set -euo pipefail`)
 - Temperature is intentionally low (0.2-0.3) for consistency
-- Knowledge base queries add processing time but provide rich context
+- Knowledgebase queries add processing time but provide rich context
 - Pandoc styles are hardcoded at `/ai/web/www/vhosts/customkb.dev/html/pandoc/`
 - System leverages symbolic links to parent applied anthropology database
 
 ## 🚧 Development Status
 
 - **Version**: 2.0.0 (Enhanced modular scripts)
-- **Knowledge Base**: 777,553 documents
+- **Knowledgebase**: 777,553 documents
 - **Primary Model**: GPT-4o (configurable)
 - **Logging**: Centralized with rotation support
 - **Status**: Fully operational and production-ready
