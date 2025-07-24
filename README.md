@@ -81,6 +81,7 @@ To explore dharma as **universal human ethical patterns that emerge across cultu
    - `workshops/` - Contains source documents (symlinked in dev environment)
    - `staging.text/` - Processed text cache (symlinked in dev environment)
    - `embed_data` and `embed_data.text` are legacy symlinks pointing to the above
+   - **Data download**: The staging.text data can be obtained from https://yatti.id/kb/seculardharma.zip
 
 5. Verify installation:
    ```bash
