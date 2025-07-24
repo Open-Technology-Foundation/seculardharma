@@ -8,7 +8,7 @@
 
 ## Overview
 
-The **Secular Dharma Knowledgebase** is a sophisticated AI-powered research and content generation platform that explores ethical living through secular interpretations of dharma. Built on advanced vector search technology (FAISS) with access to **777,553+ interdisciplinary documents**, it serves the rapidly growing demographic of "spiritual but not religious" individuals, academics, and professionals seeking evidence-based approaches to wisdom traditions without supernatural beliefs.
+The **Secular Dharma Knowledgebase** is a sophisticated AI-powered research and content generation platform that explores ethical living through secular interpretations of dharma. Built on advanced vector search technology (FAISS) with access to **15,224 documents segmented into 777,553 searchable chunks**, it serves the rapidly growing demographic of "spiritual but not religious" individuals, academics, and professionals seeking evidence-based approaches to wisdom traditions without supernatural beliefs.
 
 The platform addresses the explosive growth in secular spirituality and mindfulness practice, serving academics generating scholarly content, content creators developing educational materials, mental health professionals integrating secular mindfulness approaches, and the broader secular Buddhism movement. Through modular research generation and video essay creation tools, users can produce comprehensive philosophical content across configurable depth levels and multiple output formats.
 
@@ -135,7 +135,7 @@ seculardharma/
 ### Core Technology Stack
 - **Vector Database**: FAISS-based semantic search with 1024-dimension embeddings
 - **Embeddings**: OpenAI text-embedding-3-large model
-- **Knowledgebase**: 777,553+ interdisciplinary documents via shared architecture
+- **Knowledgebase**: 15,224 documents (777,553+ searchable segments) via shared architecture
 - **Search Configuration**: 30 top-k results, 0.6 similarity threshold, reranking enabled
 - **AI Integration**: Support for multiple LLMs (GPT-4o, Claude Sonnet, O1, etc.)
 
@@ -340,7 +340,7 @@ DefiningDharma/
 - **Search Parameters**: 30 top-k results, 0.6 similarity threshold
 - **Context Files**: Points to `secular_dharma_primary_prompt.md`
 - **Hybrid Search**: Currently disabled (BM25 available)
-- **Knowledgebase**: 777,553 documents with full access
+- **Knowledgebase**: 15,224 documents (777,553 searchable segments) with full access
 
 ### Model Selection
 - **sonnet4**: Claude 3.5 Sonnet (default for most scripts)
@@ -358,7 +358,7 @@ DefiningDharma/
 ### Current Configuration Status
 - **Primary Model**: GPT-4o with temperature 0.2335 (optimized for philosophical consistency)
 - **Vector Model**: text-embedding-3-large producing 1024-dimensional embeddings
-- **Knowledgebase**: 777,553 documents accessed via symbolic link architecture
+- **Knowledgebase**: 15,224 documents (777,553 searchable segments) accessed via symbolic link architecture
 - **Search Configuration**: 30 top-k results, 0.6 similarity threshold, reranking enabled
 - **Processing Mode**: CPU-based with robust error handling throughout
 
@@ -395,7 +395,7 @@ DefiningDharma/
 ## Performance & Technical Notes
 
 ### Performance Characteristics
-- **Database Size**: 777,553 documents with comprehensive interdisciplinary coverage
+- **Database Size**: 15,224 documents (777,553 searchable segments) with comprehensive interdisciplinary coverage
 - **Vector Index**: FAISS-based with reranking for improved relevance
 - **Temperature Setting**: Intentionally low (0.2335) for philosophical consistency
 - **Error Handling**: Robust `set -euo pipefail` implementation across all scripts

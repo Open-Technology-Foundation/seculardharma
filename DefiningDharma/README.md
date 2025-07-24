@@ -32,7 +32,7 @@ DefiningDharma is an advanced AI content generation platform that explores the c
 
 ### Required External Tools
 - **`dv2`/`dejavu2-cli`** (`/usr/local/bin/dv2`) - LLM interface with API keys configured
-- **`customkb`** (`/usr/local/bin/customkb`) - Vector database queries (777K+ documents)
+- **`customkb`** (`/usr/local/bin/customkb`) - Vector database queries (15K+ documents, 777K+ segments)
 - **`pandoc`** - Markdown to HTML conversion
 - **`yq`** - YAML processing for video scripts
 
@@ -273,7 +273,7 @@ logs/
 ## 🚧 Development Status
 
 - **Version**: 2.0.0 (Enhanced modular scripts)
-- **Knowledgebase**: 777,553 documents
+- **Knowledgebase**: 15,224 documents (777,553 searchable segments)
 - **Primary Model**: GPT-4o (configurable)
 - **Logging**: Centralized with rotation support
 - **Status**: Fully operational and production-ready
