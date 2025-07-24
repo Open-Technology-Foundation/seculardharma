@@ -14,6 +14,23 @@ The platform addresses the growth in secular spirituality and mindfulness practi
 
 ---
 
+## Public Access
+
+### Online Access via WAH.ID
+The Secular Dharma Knowledgebase is publicly accessible through the **[WAH.ID platform](https://wah.id/)**:
+
+1. **Visit**: https://wah.id/
+2. **Create New Conversation**: Click to start a new AI conversation
+3. **Select Agent Template**: Choose the **"MyDharma"** agent template
+4. **Start Exploring**: Begin querying the knowledgebase about secular dharma, ethical living, mindfulness practices, and philosophical frameworks
+
+The MyDharma agent provides direct access to the full 777,553+ searchable document segments, offering evidence-based insights on dharma without requiring any technical setup or installation.
+
+### Quick Start Tutorial
+🎥 **[Watch the Tutorial Video](#)** *(Coming Soon)* - Learn how to effectively use the MyDharma agent for research, contemplative guidance, and philosophical exploration.
+
+---
+
 ## Core Mission & Philosophy
 
 ### Purpose
